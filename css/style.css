@@ -262,11 +262,13 @@
 .questions__box {
   width: 100%;
   position: relative;
+  border-bottom: 2px solid #9194a1;
   overflow: hidden; }
   .questions__box__item {
     background-color: #f7f5f5;
     padding: 2rem;
     display: flex;
+    border-top: 2px solid #9194a1;
     justify-content: space-between; }
   .questions__box__answer {
     padding: 2rem;
