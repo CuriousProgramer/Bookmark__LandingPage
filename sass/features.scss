@@ -1,0 +1,50 @@
+.features{
+  padding: 7rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: $font-primary;
+
+  & >:not(:last-child){
+    margin-bottom: 3rem;
+  }
+  &__heading{
+
+  }
+  &__text{
+    display: none;
+    color: $grayish-blue;
+  }
+  &__text.active{
+    display: block;
+  }
+  &__btn__container{
+    display: flex;
+    @media screen and (max-width: 815px){
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  &__button{
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid rgb(211, 210, 210);
+    padding: 1.5rem 3rem;
+    color: $grayish-blue;
+    font-weight: 500;
+    font-family: $font-primary;
+  }
+  &__button:hover{
+    cursor: pointer;
+  }
+
+  &__button.active{
+    color: black;
+    border-bottom: 3px solid $soft-red;
+  }
+}

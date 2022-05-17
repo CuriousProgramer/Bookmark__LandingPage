@@ -1,0 +1,39 @@
+@import "header";
+@import "display";
+@import "features";
+@import "download";
+@import "variables";
+@import "questions";
+@import "contact";
+@import "footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+//Color
+$soft-blue: hsl(231, 69%, 60%);
+$soft-red: hsl(0, 94%, 66%);
+$grayish-blue: hsl(229, 8%, 60%);
+$very-dark-blue: hsl(229, 31%, 21%);
+
+//Fonts
+$font-primary: 'Rubik', sans-serif;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  
+}
+
+
+body{
+  font-family: $font-primary;
+  font-size: 1.8rem;
+  overflow-x: hidden;
+  
+}
